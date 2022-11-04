@@ -26,6 +26,7 @@
       outline: 2px solid hsl(var(--p));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked="true"] {
       @apply border-primary bg-primary text-primary-content;
@@ -39,6 +40,7 @@
       outline: 2px solid hsl(var(--s));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked="true"] {
       @apply border-secondary bg-secondary text-secondary-content;
@@ -52,6 +54,7 @@
       outline: 2px solid hsl(var(--a));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked="true"] {
       @apply border-accent bg-accent text-accent-content;
@@ -65,6 +68,7 @@
       outline: 2px solid hsl(var(--su));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked=true] {
       @apply border-success bg-success text-success-content;
@@ -78,6 +82,7 @@
       outline: 2px solid hsl(var(--wa));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked=true] {
       @apply border-warning bg-warning text-warning-content;
@@ -91,6 +96,7 @@
       outline: 2px solid hsl(var(--in));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked=true] {
       @apply border-info bg-info text-info-content;
@@ -104,6 +110,7 @@
       outline: 2px solid hsl(var(--er));
     }
     &:checked,
+    &:indeterminate,
     &[checked="true"],
     &[aria-checked=true] {
       @apply border-error bg-error text-error-content;
